@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    height: 50vh;
+    box-shadow: slategrey;
+    background-color: rgb(66, 70, 74);
+    margin-left: 250px;
+    margin-top: 150px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    color: wheat;
+    margin: 10px;
+}
